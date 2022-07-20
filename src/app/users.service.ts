@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-
+import { Injectable } from '@angular/core';
 interface dataType{
   name: string,
   id:number,
@@ -7,13 +6,13 @@ interface dataType{
   address:any
 }
 
-@Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+@Injectable({
+  providedIn: 'root'
 })
-export class AppComponent {
-  title = 'model_interface';
+export class UsersService {
+
+  constructor() { }
+
   getData(){
     const data:dataType={
       name:"vijay mane",
