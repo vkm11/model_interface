@@ -1,5 +1,24 @@
 # ModelInterface
 
+# Imp
+
+- it can be used anywhere
+- it defines data structure 
+
+ex:- name:string, empid:number(using interface)
+
+
+
+
+
+
+
+
+
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
 
 ## Development server
