@@ -1,5 +1,9 @@
 # Model and Interface
 
+
+* Make service:
+- ng g service users
+- 
 # Imp
 
 - it can be used anywhere
